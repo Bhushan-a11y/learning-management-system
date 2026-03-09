@@ -25,7 +25,7 @@ public List<Instructor> getInst() {
 
 
 public void addInst(Instructor inst) {
-    inss.add(inst);
+    inr.save(inst);
   
 }
 
